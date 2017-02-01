@@ -22,31 +22,33 @@
               <a href="#" class="brand-logo">Logo</a>
               <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">Om os</a></li>
+                <li><a href="#">Om magasinet</a></li>
                 <li><a href="#">Kontakt</a></li>
                 <li><a href="#">Facebook</a></li>
               </ul>
               <ul class="side-nav" id="mobile-demo">
-                <li><a href="#">Om os</a></li>
+                <li><a href="#">Om magasinet</a></li>
                 <li><a href="#">Kontakt</a></li>
                 <li><a href="#">Facebook</a></li>
               </ul>
             </div>
             <div class="nav-wrapper">
-              <ul class="nav-wrapper" >
-                    <li class="tab"><a class="active" href="#">Aktuelt</a></li>
-                    <li><a href="#">Tab 2</a></li>
-                    <li><a href="#">Tab 3</a></li>
-                    <li><a href="#">Tab 4</a></li>
-                    <li><a href="test1.html">Tab 5</a></li>
+              <ul >
+                    <li class="nav2"><a class="active light-blue darken-2" href="#">Aktuelt</a></li>
+                    <li class="nav2"><a href="#">Tab 2</a></li>
+                    <li class="nav2"><a href="#">Tab 3</a></li>
+                    <li class="nav2"><a href="#">Tab 4</a></li>
+                    <li class="nav2"><a href="test1.html">Tab 5</a></li>
               </ul>
             </div>
         </div>
     </div>
 </nav>
 
-<div id="tab1" class="col s12">
-    <div id= "tab1" class="slider">
+<div class="section">
+<div class="container">
+<div class="col s6">
+    <div class="slider">
         <ul class="slides">
           <li>
             <img src="placeholder1.jpeg"> <!-- random image -->
@@ -74,21 +76,20 @@
           </li>
         </ul
     </div>
+    </div>
+    </div>
 </div>
 
 <div class="section">
     <div class="container">
         <div class="row">
             <div class="col l6 offset-l3">
-                <p class="z-depth-4">
-                    <div margin="50px">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a consequat odio, vitae lobortis nunc. Quisque facilisis ligula ac tellus pretium, in aliquam erat scelerisque. Aenean nec sem mattis, vestibulum mauris at, porta risus. Maecenas viverra, arcu vel fermentum consectetur, erat leo fermentum lacus, vitae tristique orci turpis ac tellus. Etiam vulputate viverra consequat. Pellentesque lobortis facilisis rhoncus. Duis lectus tortor, congue nec lectus in, egestas maximus neque. Fusce nec maximus ipsum. Morbi vulputate bibendum sodales. Nunc accumsan fringilla nibh, viverra consectetur arcu sodales eget. Donec vestibulum venenatis diam, vel ultrices massa sodales at. Sed quis augue mauris. Cras rutrum diam facilisis velit ultricies, ac facilisis sapien convallis.
-                    </div>
-                </p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a consequat odio, vitae lobortis nunc. Quisque facilisis ligula ac tellus pretium, in aliquam erat scelerisque. Aenean nec sem mattis, vestibulum mauris at, porta risus. Maecenas viverra, arcu vel fermentum consectetur, erat leo fermentum lacus, vitae tristique orci turpis ac tellus. Etiam vulputate viverra consequat. Pellentesque lobortis facilisis rhoncus. Duis lectus tortor, congue nec lectus in, egestas maximus neque. Fusce nec maximus ipsum. Morbi vulputate bibendum sodales. Nunc accumsan fringilla nibh, viverra consectetur arcu sodales eget. Donec vestibulum venenatis diam, vel ultrices massa sodales at. Sed quis augue mauris. Cras rutrum diam facilisis velit ultricies, ac facilisis sapien convallis.
             </div>
         </div>
     </div>
 </div>
+
 
 
 <footer class="page-footer light-blue darken-3">
@@ -117,6 +118,8 @@
     </div>
 </footer>
 
+<div class="fb-comments" data-href="http://isplasher.com/2017/webmagasin" data-width="50" data-numposts="5"></div>
+
 </body>
 
 </html>
@@ -143,4 +146,16 @@
     $('.slider').slider('next');
     // Previous slide
     $('.slider').slider('prev');
+
+    $('.indicator').slider('false');
 </script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=690172121085142";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
