@@ -4012,7 +4012,6 @@ nav {
 
 nav.nav-extended {
   height: auto;
-  color: #80cbc4;
 }
 
 nav.nav-extended .nav-wrapper {
@@ -7748,7 +7747,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: rgb(191,28,61);
+  background-color: rgb(1,168,150);
 }
 
 .carousel {
