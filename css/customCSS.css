@@ -2,6 +2,7 @@
 	width: 25%;
 	text-align: center;
 	position: relative;
+	font-size: 25px !important;
 }
 .nav3 :hover {
 	border-bottom: 4px solid rgb(1,168,150);
@@ -20,11 +21,14 @@
 
 .logoColor {
 	background-color: rgb(81,202,233);
+	padding: 10px;
 }
 
 .logoColor img{
-	height: 70px;
-	width: 150px;
+	height: 95px;
+	width: 180px;
+	position: relative;
+	z-index: 100;
 }
 
 .articleThumbnailTextColor {
@@ -51,7 +55,6 @@
 
 .anbefaledeArtikler img {
 	width: 100%;
-	height: 200px;
 }
 
 .anbefaledeArtikler h5 {
@@ -68,6 +71,29 @@
 	color: rgb(191,28,61);
 }
 
+.anbefaledeArtikler2 {
+	width: 100%;
+}
+
+.anbefaledeArtikler2 img {
+	width: 100%;
+	height: 200px;
+}
+
+.anbefaledeArtikler2 h5 {
+	color: rgb(191,28,61);
+}
+
+.anbefaledeArtikler2 h6 {
+	color: black;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.anbefaledeArtikler2 h6:hover {
+	color: rgb(191,28,61);
+}
+
 .thumbnail {
 	margin-top: 10px;
 }
@@ -76,3 +102,4 @@
 	height: 100%;
 	margin-top: 15px;
 }
+
