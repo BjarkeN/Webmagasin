@@ -5,13 +5,13 @@
 	font-size: 25px !important;
 }
 .nav3 :hover {
-	border-bottom: 4px solid rgb(1,168,150);
+	border-bottom: 4px solid rgb(81,202,233);
 }
 
 .activeNav3 {
 	width: 25%;
 	text-align: center;
-	border-bottom: 5px solid rgb(1,168,150);
+	border-bottom: 5px solid rgb(81,202,233);
 
 }
 
@@ -58,7 +58,7 @@
 }
 
 .anbefaledeArtikler h5 {
-	color: rgb(191,28,61);
+	color: #c0392b;
 }
 
 .anbefaledeArtikler h6 {
@@ -68,7 +68,24 @@
 }
 
 .anbefaledeArtikler h6:hover {
-	color: rgb(191,28,61);
+	color: #c0392b;
+}
+
+.tema1 {
+	color: blue;
+	background-color: blue;
+}
+.tema2 {
+	color: green;
+	background-color: green;
+}
+.tema3 {
+	color: #ffc107;
+	background-color: #ffc107;
+}
+.tema4 {
+	color: #ffab91;
+	background-color: #ffab91;
 }
 
 .anbefaledeArtikler2 {
@@ -103,3 +120,6 @@
 	margin-top: 15px;
 }
 
+.byline {
+	font-weight: bold;
+}
