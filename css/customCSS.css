@@ -71,21 +71,7 @@
 	color: #c0392b;
 }
 
-.tema1 {
-	color: blue;
-	background-color: blue;
-}
-.tema2 {
-	color: green;
-	background-color: green;
-}
-.tema3 {
-	color: #ffc107;
-	background-color: #ffc107;
-}
-.tema4 {
-	color: #ffab91;
-	background-color: #ffab91;
+.tema1, .tema2, .tema3, .tema4 {
 }
 
 .anbefaledeArtikler2 {
@@ -122,4 +108,10 @@
 
 .byline {
 	font-weight: bold;
+}
+
+#temakasse {
+	overflow-y:auto;
+	padding: 5px 10px;
+	height:	600px;
 }

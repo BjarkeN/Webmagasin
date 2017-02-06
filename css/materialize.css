@@ -3668,10 +3668,10 @@ nav ul a span.badge {
     right: auto;
   }
   .row .col.m6 {
-    width: 50%;
-    margin-left: auto;
+    width: 49%;
     left: auto;
     right: auto;
+    margin: 5px 5px;
   }
   .row .col.m7 {
     width: 58.3333333333%;
