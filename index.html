@@ -11,36 +11,38 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/customCSS.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body>
 
 <nav class="nav-extended">
-    <div class="light-blue darken-3">
+    <div class="cyan lighten-3">
         <div class="container">
             <div class="nav-wrapper">
-              <a href="#" class="brand-logo">Logo</a>
-              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">Om magasinet</a></li>
-                <li><a href="#">Kontakt</a></li>
-                <li><a href="#">Facebook</a></li>
-              </ul>
-              <ul class="side-nav" id="mobile-demo">
-                <li><a href="#">Om magasinet</a></li>
-                <li><a href="#">Kontakt</a></li>
-                <li><a href="#">Facebook</a></li>
-              </ul>
+                <a href="index.html" class="brand-logo"><img src="logo.png" width="200px"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down section table-of-contents">
+                    <li class="upperNav"><a href="#omMagasinet"><p class="white-text">Om magasinet</p></a></li>
+                    <li class="upperNav"><a href="#contact"><p class="white-text">Kontakt</p></a></li>
+                    <li class="upperNav"><a href="#"><p class="white-text">Facebook</p></a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="#">Om magasinet</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
             </div>
-            <div class="nav-wrapper">
-              <ul >
-                    <li class="nav2"><a class="active light-blue darken-2" href="#">Aktuelt</a></li>
-                    <li class="nav2"><a href="#">Tab 2</a></li>
-                    <li class="nav2"><a href="#">Tab 3</a></li>
-                    <li class="nav2"><a href="#">Tab 4</a></li>
-                    <li class="nav2"><a href="test1.html">Tab 5</a></li>
-              </ul>
-            </div>
+        </div>
+    </div>
+    <div class="nav-wrapper cyan lighten-3">
+        <div class="container">
+            <ul>
+                <li class="activeNav3"><a href="#">Tab 1</li>
+                <li class="nav3"><a href="#">Tab 2</a></li>
+                <li class="nav3"><a href="#">Tab 3</a></li>
+                <li class="nav3"><a href="test1.html">Tab 4</a></li>
+            </ul>
         </div>
     </div>
 </nav>
@@ -51,27 +53,33 @@
     <div class="slider">
         <ul class="slides">
           <li>
-            <img src="placeholder1.jpeg"> <!-- random image -->
-            <div class="caption center-align">
-              <h1>HEADLINE</h1>
-            </div>
+            <a href="artikelTemplate.html">
+                <img src="Artikel1Test.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h2 class="sliderText">Aarhus Kulturby - Fremtiden for Aarhus 2017?</h2>
+                  <h5 class="sliderText">Aarhus starter året ud med et brag. Europæisk kulturhovedstad bliver titlen i det nyeår.</h5>
+                </div>
+            </a>
           </li>
           <li>
             <img src="placeholder2.jpg"> <!-- random image -->
             <div class="caption center-align">
-              <h1>HEADLINE</h1>
+              <h2 class="sliderText">HEADLINE</h2>
+              <h5 class="sliderText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at volutpat tortor, eu condimentum dui.</h5>
             </div>
           </li>
           <li>
             <img src="placeholder3.jpg"> <!-- random image -->
             <div class="caption center-align">
-              <h1>HEADLINE</h1>
+              <h2 class="sliderText">HEADLINE</h2>
+              <h5 class="sliderText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at volutpat tortor, eu condimentum dui.</h5>
             </div>
           </li>
           <li>
             <img src="placeholder4.jpeg"> <!-- random image -->
             <div class="caption center-align">
-              <h1>HEADLINE</h1>
+              <h2 class="sliderText">HEADLINE</h2>
+              <h5 class="sliderText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at volutpat tortor, eu condimentum dui.</h5>
             </div>
           </li>
         </ul
@@ -85,7 +93,7 @@
         <ul class="tabs">
             <li>
                 <div class="col s2 offset-s2">
-                    <a class="btn-floating btn-large waves-effect waves-light red" href="#artikelForm1">But 1</a>
+                    <a class="active btn-floating btn-large waves-effect waves-light red" href="#artikelForm1">But 1</a>
                 </div>
             </li>
             <li>
@@ -133,7 +141,7 @@
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
                                             <div class="card-action">
-                                              <a href="#">Se mere...</a>
+                                              <a class="articleThumbnailTextColor" href="#">Se mere...</a>
                                             </div>
                                         </div>
                                     </div>
@@ -149,7 +157,7 @@
                                                 <h5>HEADLINE</h5>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
-                                            <div class="card-action">
+                                            <div class="card-action articleThumbnailTextColor">
                                               <a href="#">Se mere...</a>
                                             </div>
                                         </div>
@@ -166,7 +174,7 @@
                                                 <h5>HEADLINE</h5>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
-                                            <div class="card-action">
+                                            <div class="card-action articleThumbnailTextColor">
                                               <a href="#">Se mere...</a>
                                             </div>
                                         </div>
@@ -183,7 +191,7 @@
                                                 <h5>HEADLINE</h5>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
-                                            <div class="card-action">
+                                            <div class="card-action articleThumbnailTextColor">
                                               <a href="#">Se mere...</a>
                                             </div>
                                         </div>
@@ -202,7 +210,7 @@
                                                 <h5>HEADLINE</h5>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
-                                            <div class="card-action">
+                                            <div class="card-action articleThumbnailTextColor">
                                               <a href="#">Se mere...</a>
                                             </div>
                                         </div>
@@ -219,7 +227,7 @@
                                                 <h5>HEADLINE</h5>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
-                                            <div class="card-action">
+                                            <div class="card-action articleThumbnailTextColor">
                                               <a href="#">Se mere...</a>
                                             </div>
                                         </div>
@@ -236,7 +244,7 @@
                                                 <h5>HEADLINE</h5>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
-                                            <div class="card-action">
+                                            <div class="card-action articleThumbnailTextColor">
                                               <a href="#">Se mere...</a>
                                             </div>
                                         </div>
@@ -253,7 +261,7 @@
                                                 <h5>HEADLINE</h5>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </div>
-                                            <div class="card-action">
+                                            <div class="card-action articleThumbnailTextColor">
                                               <a href="#">Se mere...</a>
                                             </div>
                                         </div>
@@ -269,35 +277,52 @@
     </div>
 </div>
 
-
-
-<footer class="page-footer  grey lighten-3">
-<div class="container">
-    <div class="row">
-        <div class="col l6 s12">
-                <h5 class="black-text">Footer Content</h5>
-                <p>You can use rows and columns here to organize your footer content.</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="black-text">Links</h5>
-                <ul>
-                    <li class="black-text"><a href="#!">Link 1</a></li>
-                    <li class="black-text"><a href="#!">Link 2</a></li>
-                    <li class="black-text"><a href="#!">Link 3</a></li>
-                    <li class="black-text"><a href="#!">Link 4</a></li>
-                </ul>
-            </div>
+<div id="omMagasinet" class="section section scrollspy">
+    <div class="container row">
+        <h3 class="center black-text">Om Magasinet</h3>
+        <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel tincidunt nulla. Fusce laoreet ultricies ante, a blandit nisi tincidunt non. Vestibulum est ante, mollis vel urna et, semper tincidunt lectus. Curabitur commodo est leo, sed posuere erat efficitur a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec mauris ligula, malesuada vel nibh ut, rutrum elementum tellus. Suspendisse aliquam quis ex quis commodo. Praesent at ipsum eget ex ornare tempus ac id purus..</p>
+        <div class="col s12 m4">
+            <h5 class="center black-text">Lorem ipsum</h5>
+            <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel tincidunt nulla. Fusce laoreet ultricies ante, a blandit nisi tincidunt non. Vestibulum est ante, mollis vel urna et, semper tincidunt lectus.</p>
+        </div>
+        <div class="col s12 m4">
+            <h5 class="center black-text">Lorem ipsum</h5>
+            <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel tincidunt nulla. Fusce laoreet ultricies ante, a blandit nisi tincidunt non. Vestibulum est ante, mollis vel urna et, semper tincidunt lectus.</p>
+        </div>
+        <div class="col s12 m4">
+            <h5 class="center black-text">Lorem ipsum</h5>
+            <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel tincidunt nulla. Fusce laoreet ultricies ante, a blandit nisi tincidunt non. Vestibulum est ante, mollis vel urna et, semper tincidunt lectus.</p>
         </div>
     </div>
-    <div class="footer-copyright">
-        <div class="container black-text">
+</div>
+
+
+
+<footer class="page-footer grey lighten-3">
+<div class="container">
+    <div id="contact" class="row">
+        <div class="col l6 s12">
+            <h5 class="black-text">Footer Content</h5>
+            <p>You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+            <h5 class="black-text">Links</h5>
+            <ul>
+                <li class="black-text"><a href="#!">Link 1</a></li>
+                <li class="black-text"><a href="#!">Link 2</a></li>
+                <li class="black-text"><a href="#!">Link 3</a></li>
+                <li class="black-text"><a href="#!">Link 4</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer-copyright">
+    <div class="container black-text">
         © 2014 Copyright Text
         <a class="black-text right" href="#!">More Links</a>
-        </div>
     </div>
+</div>
 </footer>
-
-<div class="fb-comments" data-href="http://isplasher.com/2017/webmagasin" data-width="50" data-numposts="5"></div>
 
 </body>
 
@@ -315,6 +340,7 @@
     $(document).ready(function() {
         $(document).ready(function(){
         $('.slider').slider();
+        $('.scrollspy').scrollSpy();
         });
     });
     // Pause slider
@@ -327,6 +353,9 @@
     $('.slider').slider('prev');
 
     $('.indicator').slider('false');
+
+ 
+
 </script>
 
 <div id="fb-root"></div>

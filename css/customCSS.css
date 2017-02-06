@@ -1,0 +1,59 @@
+.nav3 {
+	width: 25%;
+	text-align: center;
+	position: relative;
+}
+.nav3 :hover {
+	border-bottom: 4px solid rgb(131,80,61);
+}
+
+.activeNav3 {
+	width: 25%;
+	text-align: center;
+	border-bottom: 5px solid rgb(151,80,61);
+
+}
+
+.upperNav {
+	height: 10px;
+}
+
+.logoColor {
+	background-color: rgb(191,28,61);
+}
+
+.articleThumbnailTextColor {
+	color: rgb(191,28,61);
+}
+
+.sliderText {
+	background-color: rgba(10,10,10,0.4);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.billedtext {
+	font-size: 12px;
+}
+
+.broedtext {
+
+}
+
+.anbefaledeArtikler {
+	width: 100%;
+}
+
+.anbefaledeArtikler h5 {
+	color: rgb(191,28,61);
+}
+
+.anbefaledeArtikler h6 {
+	color: black;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.anbefaledeArtikler h6:hover {
+	color: rgb(191,28,61);
+}
