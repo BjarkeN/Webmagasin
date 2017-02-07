@@ -122,3 +122,13 @@
 	padding: 5px 10px;
 	height:	600px;
 }
+
+.metaliste {
+	font-size: 10px;
+}
+.metaliste li {
+	display: inline-block;
+	border: 1px solid grey;
+	padding: 2px;
+}
+
